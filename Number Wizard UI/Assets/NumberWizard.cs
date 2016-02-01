@@ -38,7 +38,7 @@ public class NumberWizard : MonoBehaviour {
 		text.text = guess.ToString ();
 		maxGuesses--;
 
-		} else if (maxGuesses <= 0) {
+		if (maxGuesses <= 0) {
 			SceneManager.LoadScene("Win");
 		}
 	}
