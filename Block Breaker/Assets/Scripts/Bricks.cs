@@ -13,8 +13,7 @@ public class Bricks : MonoBehaviour {
 		totalHits = 0;
 	}
 
-	void OnCollisionEnter2D (Collision2D col) {
-		print ("Hit");
+	void OnCollisionExit2D (Collision2D col) {
 		totalHits++;
 		if (totalHits >= maxHits) {
 			Destroy(gameObject);
