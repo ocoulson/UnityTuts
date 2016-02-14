@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Paddle : MonoBehaviour {
 
+	public AudioClip boing;
+	private bool hasStarted = false;
 	// Use this for initialization
 	void Start () {
 	
@@ -16,5 +18,14 @@ public class Paddle : MonoBehaviour {
 
 		paddlePos.x = Mathf.Clamp(mousePosInBlocks, 1f, 15f);
 		this.transform.position = paddlePos;
+		if (Input.GetMouseButtonDown (0)) {
+				hasStarted = true;
+			}
+	}
+
+	void OnCollisionEnter2D (Collision2D col) {
+		if (hasStarted) {
+			AudioSource.PlayClipAtPoint(boing, transform.position);
+		}
 	}
 }

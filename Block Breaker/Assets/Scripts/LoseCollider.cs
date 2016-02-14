@@ -12,10 +12,9 @@ public class LoseCollider : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D trigger) {
 		Debug.Log("Triggered Message");
 		levelManager.LoadLevel("Lose"); 
+
 	}
 
-	void OnCollisionEnter2D (Collision2D collision) {
-		Debug.Log("Collision Message");
-	}
+
 }
  
