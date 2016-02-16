@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Paddle : MonoBehaviour {
 
-	public bool autoPlay = true;
+	public bool autoPlay = false;
 	public AudioClip boing;
 
 	private bool hasStarted;
@@ -19,7 +19,6 @@ public class Paddle : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		hasStarted =  ball.HasStarted();
-		print(ball.transform.position.x);
 		if (autoPlay) {
 			AutoPlay();
 		} else {
