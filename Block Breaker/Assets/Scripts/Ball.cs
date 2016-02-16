@@ -31,4 +31,16 @@ public class Ball : MonoBehaviour {
 		}
 	}
 
+	void OnCollisionEnter2D (Collision2D col) {
+		Vector2 tweak = new Vector2 (Random.Range (-0.2f, 0.2f), Random.Range (-0.2f, 0.2f));
+
+		if (hasStarted) {
+			this.GetComponent<Rigidbody2D>().velocity += tweak;
+		}
+	}
+
+	public bool HasStarted () {
+		return hasStarted;
+	}
+
 }
