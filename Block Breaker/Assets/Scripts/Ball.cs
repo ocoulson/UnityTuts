@@ -11,7 +11,6 @@ public class Ball : MonoBehaviour {
 	void Start () {
 		paddle = GameObject.FindObjectOfType<Paddle>();
 		paddleToBallVector = this.transform.position - paddle.transform.position;
-		print(paddleToBallVector.y);
 
 	}
 	

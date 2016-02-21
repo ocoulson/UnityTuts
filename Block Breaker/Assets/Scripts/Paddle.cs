@@ -7,24 +7,29 @@ public class Paddle : MonoBehaviour {
 	public AudioClip boing;
 
 	private bool hasStarted;
+	private LevelManager levelManager;
 
 	private Ball ball;
 
 	void Start () {
 		ball = GameObject.FindObjectOfType<Ball>();
-		print(ball);
-
+		levelManager = GameObject.FindObjectOfType<LevelManager>();
+	
 	}
 
 	// Update is called once per frame
 	void Update () {
-		hasStarted =  ball.HasStarted();
-		print(ball.transform.position.x);
-		if (autoPlay) {
-			AutoPlay();
+		hasStarted = ball.HasStarted ();
+		if (levelManager.Paused ()) {
+
 		} else {
-			MoveWithMouse();
+			if (autoPlay) {
+				AutoPlay();
+			} else {
+				MoveWithMouse();
+			}
 		}
+
 
 	}
 

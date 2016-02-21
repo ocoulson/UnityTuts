@@ -12,6 +12,7 @@ public class Bricks : MonoBehaviour {
 	private  int totalHits;
 	private LevelManager levelManager;
 	private bool isBreakable;
+
 	// Use this for initialization
 	void Start () {
 		isBreakable = (this.tag == "Breakable");
@@ -47,8 +48,10 @@ public class Bricks : MonoBehaviour {
 
 	void LoadSprite () {
 		int spriteIndex = totalHits - 1;
-		if (HitSprites [spriteIndex]) {
-			this.GetComponent<SpriteRenderer>().sprite = HitSprites[spriteIndex];
+		if (HitSprites [spriteIndex] != null) {
+			this.GetComponent<SpriteRenderer> ().sprite = HitSprites [spriteIndex];
+		} else {
+			Debug.LogError("Brick Sprite Missing");
 		}
 	} 
 
