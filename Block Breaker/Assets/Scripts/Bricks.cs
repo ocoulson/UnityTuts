@@ -5,8 +5,8 @@ public class Bricks : MonoBehaviour {
 
 	public static int breakableCount = 0;
 
-	public AudioClip boing;
-	public AudioClip brickBreak;
+	public AudioClip bounce;
+	public AudioClip[] brickBreak;
 	public Sprite[] HitSprites;
 
 	private  int totalHits;
@@ -37,10 +37,11 @@ public class Bricks : MonoBehaviour {
 			breakableCount --;
 			Destroy (gameObject);
 			levelManager.BrickDestroyed();
-			AudioSource.PlayClipAtPoint(brickBreak, transform.position);
+			int i = Random.Range(0, 4);
+			AudioSource.PlayClipAtPoint(brickBreak[i], transform.position);
 		} else {
 			LoadSprite();
-			AudioSource.PlayClipAtPoint(boing, transform.position);
+			AudioSource.PlayClipAtPoint(bounce, transform.position);
 		}
 	}
 
