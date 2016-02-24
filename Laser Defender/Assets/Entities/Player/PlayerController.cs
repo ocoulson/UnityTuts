@@ -13,8 +13,11 @@ public class PlayerController : MonoBehaviour {
 	private float maxX;
 	private float minX;
 
+	private LevelManager levelManager;
+
 	void Start ()
 	{
+		levelManager = FindObjectOfType<LevelManager>();
 
 		initialHealth = playerHealth;
 		float zDistance = transform.position.z - Camera.main.transform.position.z;
@@ -34,6 +37,7 @@ public class PlayerController : MonoBehaviour {
 			enemyLaser.Hit();
 			if (playerHealth <= 0) {
 				Destroy(gameObject);
+				levelManager.LoadLevel("Lose");
 			}
 			Debug.Log("Player Hit, health:" + (playerHealth/initialHealth) * 100 + "%");
 		}
