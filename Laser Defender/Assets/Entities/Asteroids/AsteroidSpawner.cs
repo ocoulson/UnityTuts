@@ -11,6 +11,8 @@ public class AsteroidSpawner : MonoBehaviour {
 	private float timer = 0;
 	private float maxX;
 	private float minX;
+
+	private static int asteroidCount = 0;
 	void OnDrawGizmos ()
 	{
 		Gizmos.DrawWireCube(transform.position, new Vector3(width, height));
@@ -32,22 +34,29 @@ public class AsteroidSpawner : MonoBehaviour {
 		SetSpawnChance ();
 
 		float probability = spawnChance * Time.deltaTime;
-		if (Random.value < probability) {
+		if (Random.value < probability && asteroidCount < 20) {
 			Debug.Log("Asteroid spawned");
 			GameObject asteroid = Instantiate(asteroids[Random.Range(0, asteroids.Length-1)], new Vector3(Random.Range(minX, maxX), transform.position.y), Quaternion.identity) as GameObject;
 			asteroid.transform.parent = transform;
-			asteroid.GetComponent<Rigidbody2D>().velocity = new Vector3 (0, Random.Range(0.000001f, 2f));
+			float randomSize = Random.Range(1,3);
+			asteroid.transform.localScale = new Vector3(randomSize, randomSize, 0);
+			asteroid.GetComponent<Rigidbody2D>().mass = (randomSize * randomSize);
+			asteroidCount ++;
 		}
 	}
 
 	void SetSpawnChance ()
 	{
-		if (timer > 10 && timer < 11) {
+		if (timer < 10) {
 			spawnChance = 0.1f;
-		} else if (timer > 20 & timer < 21) {
+		} else if (timer < 20) {
 			spawnChance = 0.2f;
-		} else if (timer > 30 & timer < 31) {
+		} else if (timer < 30) {
 			spawnChance = 0.3f;
+		} else if (timer < 40) {
+			spawnChance = 0.4f;
+		} else {
+			spawnChance = 0.5f;
 		}
 	}
 }
