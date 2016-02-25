@@ -4,12 +4,16 @@ using System.Collections.Generic;
 
 public class EnemySpawner : MonoBehaviour {
 
-	public GameObject enemyPrefab;
+	public GameObject[] enemyPrefab;
 	public float width;
 	public float height;
 	public float spawnDelayTime = 0.5f;
-	private float speed;
+	public static float difficulty = 1;
 
+	private float speed;
+	float enemy2Chance = 0.2f * difficulty;
+	float enemy3Chance = 0.1f * difficulty;
+	float enemy4Chance = 0.05f * difficulty;
 	private float leftX;
 	private float rightX;
 	private bool goingLeft = true;
@@ -32,21 +36,36 @@ public class EnemySpawner : MonoBehaviour {
 	void SpawnEnemies ()
 	{
 		foreach (Transform child in transform) {
-			GameObject enemy = Instantiate (enemyPrefab, child.transform.position, Quaternion.identity) as GameObject;
+			GameObject enemy = Instantiate (enemyPrefab[0], child.transform.position, Quaternion.identity) as GameObject;
 			enemy.transform.parent = child;
 		}
 	}
 
 	void SpawnUntilFull ()
 	{
+		 
 		Transform freePos = NextRandomFreePosition ();
+		float random = Random.value;
 		if (freePos) {
-			GameObject enemy = Instantiate (enemyPrefab, freePos.position, Quaternion.identity) as GameObject;
-			enemy.transform.parent = freePos;
+			if (random < enemy4Chance) {
+				SpawnEnemy(3, freePos);
+			} else if (random < enemy3Chance) {
+				SpawnEnemy(2, freePos);
+			} else if (random < enemy2Chance) {
+				SpawnEnemy(1, freePos);
+			} else {
+				SpawnEnemy(0, freePos);
+			}
+
 		}
 		if (NextFreePosition ()) {
 			Invoke("SpawnUntilFull", spawnDelayTime);
 		}
+	}
+	void SpawnEnemy (int arrayIndex, Transform freePos)
+	{
+		GameObject enemy = Instantiate (enemyPrefab [arrayIndex], freePos.position, Quaternion.identity) as GameObject;
+			enemy.transform.parent = freePos;
 	}
 
 	void OnDrawGizmos ()
@@ -61,6 +80,7 @@ public class EnemySpawner : MonoBehaviour {
 
 		if (AllEnemiesDestroyed ()) {
 			Debug.Log("Empty Formation");
+			difficulty ++;
 
 			SpawnUntilFull();
 		}
