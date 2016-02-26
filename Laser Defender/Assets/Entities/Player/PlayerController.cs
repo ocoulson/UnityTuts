@@ -12,17 +12,19 @@ public class PlayerController : MonoBehaviour {
 	private float initialHealth;
 	private float maxX;
 	private float minX;
-
+	private float healthPercentage;
 	private LevelManager levelManager;
+	private GameObject healthbar;
 
 	void Start ()
-	{
+	{	
 		levelManager = FindObjectOfType<LevelManager>();
 
 		initialHealth = playerHealth;
 		float zDistance = transform.position.z - Camera.main.transform.position.z;
 		Vector3 leftMost = Camera.main.ViewportToWorldPoint(new Vector3(0,0,zDistance));
 		Vector3 rightMost = Camera.main.ViewportToWorldPoint(new Vector3(1,0,zDistance));
+		healthbar = GameObject.Find("GreenBar");
 
 		minX = leftMost.x + padding;
 		maxX = rightMost.x - padding;
@@ -34,12 +36,17 @@ public class PlayerController : MonoBehaviour {
 		if (enemyLaser) {
 			
 			playerHealth -= enemyLaser.getDamage ();
-			enemyLaser.Hit();
+			enemyLaser.Hit ();
 			if (playerHealth <= 0) {
-				Destroy(gameObject);
-				levelManager.LoadLevel("Lose");
+				Destroy (gameObject);
+				levelManager.LoadLevel ("Lose");
 			}
-			Debug.Log("Player Hit, health:" + (playerHealth/initialHealth) * 100 + "%");
+			Debug.Log ("Player Hit, health:" + (playerHealth / initialHealth) * 100 + "%");
+		}
+		Asteroid asteroid = col.gameObject.GetComponent<Asteroid> ();
+		if (asteroid) {
+			Destroy(gameObject);
+			levelManager.LoadLevel("Lose");
 		}
 	}
 
@@ -59,6 +66,8 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetKeyUp (KeyCode.Space)) {
 			CancelInvoke();
 		}
+
+		healthbar.transform.localScale = new Vector3((playerHealth / initialHealth), transform.localScale.y, transform.localScale.z);
 
 	}
 

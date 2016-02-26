@@ -87,6 +87,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  score: 500
 --- !u!212 &21220286
 SpriteRenderer:
   m_ObjectHideFlags: 1

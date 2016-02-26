@@ -41,6 +41,7 @@ public class AsteroidSpawner : MonoBehaviour {
 			float randomSize = Random.Range(1,3);
 			asteroid.transform.localScale = new Vector3(randomSize, randomSize, 0);
 			asteroid.GetComponent<Rigidbody2D>().mass = (randomSize * randomSize);
+			asteroid.GetComponent<Rigidbody2D>().velocity = new Vector3(0, Random.Range(-0.1f, -0.2f));
 			asteroidCount ++;
 		}
 	}
