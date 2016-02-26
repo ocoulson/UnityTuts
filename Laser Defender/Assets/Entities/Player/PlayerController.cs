@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour {
 	public float projectileSpeed = 20f; 
 	public GameObject projectile;
 	public float fireRate = 0.2f;
+	public PlayerSpawner playerSpawner;
+
 
 	private float initialHealth;
 	private float maxX;
@@ -19,6 +21,7 @@ public class PlayerController : MonoBehaviour {
 	void Start ()
 	{	
 		levelManager = FindObjectOfType<LevelManager>();
+		playerSpawner = FindObjectOfType<PlayerSpawner>();
 
 		initialHealth = playerHealth;
 		float zDistance = transform.position.z - Camera.main.transform.position.z;
@@ -38,8 +41,8 @@ public class PlayerController : MonoBehaviour {
 			playerHealth -= enemyLaser.getDamage ();
 			enemyLaser.Hit ();
 			if (playerHealth <= 0) {
-				Destroy (gameObject);
-				levelManager.LoadLevel ("Lose");
+				Destroy(gameObject);
+				playerSpawner.PlayerDies();
 			}
 			Debug.Log ("Player Hit, health:" + (playerHealth / initialHealth) * 100 + "%");
 		}

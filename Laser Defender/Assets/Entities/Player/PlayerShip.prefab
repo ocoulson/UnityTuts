@@ -29,7 +29,6 @@ GameObject:
   - 114: {fileID: 11408208}
   - 50: {fileID: 5007156}
   - 60: {fileID: 6090024}
-  - 95: {fileID: 9565778}
   m_Layer: 10
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -44,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 189592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.79, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 437994}
@@ -110,23 +109,6 @@ PolygonCollider2D:
       - {x: 0.40762722, y: -0.21378756}
       - {x: 0.45499998, y: -0.265}
       - {x: 0.462114, y: -0.26596212}
---- !u!95 &9565778
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 189592}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11408208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -138,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 591c65ca7c52d4f08b2ff69ff1ef630f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: 500
+  playerHealth: 1000
   speed: 10
   padding: 0.5
   projectileSpeed: 20
