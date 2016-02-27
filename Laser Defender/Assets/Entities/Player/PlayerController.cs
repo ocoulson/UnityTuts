@@ -15,12 +15,11 @@ public class PlayerController : MonoBehaviour {
 	private float maxX;
 	private float minX;
 	private float healthPercentage;
-	private LevelManager levelManager;
+
 	private GameObject healthbar;
 	private PlayerSpawner playerSpawner;
 	void Start ()
 	{	
-		levelManager = FindObjectOfType<LevelManager>();
 		playerSpawner = FindObjectOfType<PlayerSpawner>();
 
 		initialHealth = playerHealth;
@@ -41,16 +40,26 @@ public class PlayerController : MonoBehaviour {
 			playerHealth -= enemyLaser.getDamage ();
 			enemyLaser.Hit ();
 			if (playerHealth <= 0) {
-				Destroy(gameObject);
-				playerSpawner.PlayerDies();
+				Destroy (gameObject);
+				playerSpawner.PlayerDies ();
 			}
 			Debug.Log ("Player Hit, health:" + (playerHealth / initialHealth) * 100 + "%");
 		}
 		Asteroid asteroid = col.gameObject.GetComponent<Asteroid> ();
 		if (asteroid) {
-			Destroy(gameObject);
-			playerSpawner.PlayerDies();
-			Debug.Log("Player destroyed by asteroid");
+			Destroy (gameObject);
+			playerSpawner.PlayerDies ();
+			Debug.Log ("Player destroyed by asteroid");
+		}
+
+		Health health = col.gameObject.GetComponent<Health> ();
+		if (health) {
+			if (health.healValue <= (initialHealth - playerHealth)) {
+				playerHealth += health.healValue;
+			} else {
+				playerHealth = initialHealth;
+			}
+			Destroy(col.gameObject);
 		}
 	}
 

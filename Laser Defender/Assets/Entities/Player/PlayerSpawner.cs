@@ -31,11 +31,16 @@ public class PlayerSpawner : MonoBehaviour {
 	{
 		lives--;
 		AudioSource.PlayClipAtPoint(explosion, transform.position);
+		StartCoroutine("Wait");
 
+	}
+
+	IEnumerator Wait ()
+	{
+		yield return new WaitForSeconds(2f);
 		if (lives > 0) {
 			SpawnPlayer ();
 		} else {
-
 			levelManager.LoadLevel("Lose");
 		}
 	}

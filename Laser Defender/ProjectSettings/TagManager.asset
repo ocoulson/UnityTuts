@@ -19,7 +19,7 @@ TagManager:
   - EnemyProjectiles
   - FriendlyProjectiles
   - Asteroids
-  - 
+  - PowerUps
   - 
   - 
   - 
@@ -40,4 +40,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Asteroids
+    uniqueID: 1894204307
+    locked: 0
+  - name: EnemyProjectiles
+    uniqueID: 3530565499
+    locked: 0
+  - name: Enemies
+    uniqueID: 1871125151
+    locked: 0
+  - name: PowerUps
+    uniqueID: 2903013639
+    locked: 0
+  - name: FriendlyProjectiles
+    uniqueID: 1919310523
+    locked: 0
+  - name: Friendlies
+    uniqueID: 1299571371
     locked: 0
