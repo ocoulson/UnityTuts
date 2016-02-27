@@ -126,6 +126,7 @@ MonoBehaviour:
   projectileSpeed: 20
   projectile: {fileID: 121648, guid: 830b4b9a897b142efa9c7555b61e3e48, type: 2}
   fireRate: 0.2
+  shot: {fileID: 8300000, guid: b712952282f73479aa28bb5a6da904de, type: 3}
 --- !u!198 &19841822
 ParticleSystem:
   m_ObjectHideFlags: 1

@@ -9,11 +9,12 @@ public class EnemySpawner : MonoBehaviour {
 	public float height;
 	public float spawnDelayTime = 0.5f;
 	public static float difficulty = 1;
+	public AudioClip[] arrival;
 
 	private float speed;
-	float enemy2Chance = 0.2f * difficulty;
-	float enemy3Chance = 0.1f * difficulty;
-	float enemy4Chance = 0.05f * difficulty;
+	private float enemy2Chance = 0.2f * difficulty;
+	private float enemy3Chance = 0.1f * difficulty;
+	private float enemy4Chance = 0.05f * difficulty;
 	private float leftX;
 	private float rightX;
 	private bool goingLeft = true;
@@ -38,6 +39,8 @@ public class EnemySpawner : MonoBehaviour {
 		foreach (Transform child in transform) {
 			GameObject enemy = Instantiate (enemyPrefab[0], child.transform.position, Quaternion.identity) as GameObject;
 			enemy.transform.parent = child;
+			int soundId = Random.Range(0, arrival.Length-1);
+			AudioSource.PlayClipAtPoint(arrival[soundId], enemy.transform.position, 0.5f);
 		}
 	}
 
@@ -65,7 +68,9 @@ public class EnemySpawner : MonoBehaviour {
 	void SpawnEnemy (int arrayIndex, Transform freePos)
 	{
 		GameObject enemy = Instantiate (enemyPrefab [arrayIndex], freePos.position, Quaternion.identity) as GameObject;
-			enemy.transform.parent = freePos;
+		enemy.transform.parent = freePos;
+		int soundId = Random.Range(0, arrival.Length-1);
+		AudioSource.PlayClipAtPoint(arrival[soundId], enemy.transform.position, 0.5f);
 	}
 
 	void OnDrawGizmos ()

@@ -177,6 +177,8 @@ MonoBehaviour:
   health: 400
   projectileSpeed: 10
   enemyScore: 300
+  shot: {fileID: 8300000, guid: 13d9d7d7803064980b02aabb95e97a57, type: 3}
+  explosion: {fileID: 8300000, guid: e1da46dba1af44ecab6701fec042d3b1, type: 3}
 --- !u!198 &19894620
 ParticleSystem:
   m_ObjectHideFlags: 1

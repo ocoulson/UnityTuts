@@ -6,8 +6,11 @@ public class Enemy : MonoBehaviour {
 	public float health = 150f;
 	public float projectileSpeed = 10f;
 	public int enemyScore = 150;
-	private ScoreKeeper scoreKeeper;
+	public AudioClip shot;
+	public AudioClip explosion;
 
+
+	private ScoreKeeper scoreKeeper;
 	private float shotsPerSecond = 0.5f;
 
 	void Start() {
@@ -20,7 +23,9 @@ public class Enemy : MonoBehaviour {
 		if (beam != null) {
 			health -= beam.getDamage ();
 			if (health <= 0) {
+				Vector3 pos = transform.position;
 				Destroy(gameObject);
+				AudioSource.PlayClipAtPoint(explosion, pos);
 				scoreKeeper.Score(enemyScore);
 			}
 			beam.Hit();
@@ -42,6 +47,8 @@ public class Enemy : MonoBehaviour {
 	{
 		GameObject laser = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
 		laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -projectileSpeed);
+
+		AudioSource.PlayClipAtPoint(shot, transform.position, 0.2f);
 	}
 }
  

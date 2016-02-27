@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour {
 	public float projectileSpeed = 20f; 
 	public GameObject projectile;
 	public float fireRate = 0.2f;
-	public PlayerSpawner playerSpawner;
+	public AudioClip shot;
 
 
 	private float initialHealth;
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour {
 	private float healthPercentage;
 	private LevelManager levelManager;
 	private GameObject healthbar;
-
+	private PlayerSpawner playerSpawner;
 	void Start ()
 	{	
 		levelManager = FindObjectOfType<LevelManager>();
@@ -49,13 +49,16 @@ public class PlayerController : MonoBehaviour {
 		Asteroid asteroid = col.gameObject.GetComponent<Asteroid> ();
 		if (asteroid) {
 			Destroy(gameObject);
-			levelManager.LoadLevel("Lose");
+			playerSpawner.PlayerDies();
+			Debug.Log("Player destroyed by asteroid");
 		}
 	}
 
 	void Fire() {
 		GameObject beam = Instantiate(projectile,transform.position, Quaternion.identity) as GameObject;
 		beam.GetComponent<Rigidbody2D>().velocity = new Vector3 (0, projectileSpeed);
+
+		AudioSource.PlayClipAtPoint(shot, transform.position);
 	}
 
 	void Update ()

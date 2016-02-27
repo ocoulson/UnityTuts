@@ -6,6 +6,8 @@ public class Asteroid : MonoBehaviour {
 	public int asteroidScore = 100;
 	private ScoreKeeper scoreKeeper;
 
+	public AudioClip explosion;
+
 	// Use this for initialization
 	void Start () {
 		health = health * gameObject.transform.localScale.x; 
@@ -22,7 +24,9 @@ public class Asteroid : MonoBehaviour {
 		if (collider != null && collider.GetType().Equals(typeof(PlayerProjectile))) {
 			health -= collider.getDamage ();
 			if (health <= 0) {
+				Vector3 pos = transform.position;
 				Destroy (gameObject);
+				AudioSource.PlayClipAtPoint(explosion, pos);
 				scoreKeeper.Score (asteroidScore);
 			}
 			gameObject.GetComponent<Rigidbody2D> ().velocity += new Vector2 (Random.Range (-0.005f, 0.005f), Random.Range (0.005f, 0.01f));
@@ -30,7 +34,9 @@ public class Asteroid : MonoBehaviour {
 		} else if (collider != null && collider.GetType ().Equals(typeof(EnemyProjectile))) {
 			health -= collider.getDamage ();
 			if (health <= 0) {
+				Vector3 pos = transform.position;
 				Destroy (gameObject);
+				AudioSource.PlayClipAtPoint(explosion, pos);
 			}
 			gameObject.GetComponent<Rigidbody2D> ().velocity += new Vector2 (Random.Range (-0.005f, 0.005f), Random.Range (0.005f, 0.01f));
 			collider.Hit ();

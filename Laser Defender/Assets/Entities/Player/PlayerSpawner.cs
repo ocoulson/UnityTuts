@@ -5,6 +5,7 @@ using System.Collections;
 public class PlayerSpawner : MonoBehaviour {
 	public GameObject playerShip;
 	public static int lives = 3;
+	public AudioClip explosion;
 
 	private LevelManager levelManager;
 
@@ -29,6 +30,7 @@ public class PlayerSpawner : MonoBehaviour {
 	public void PlayerDies ()
 	{
 		lives--;
+		AudioSource.PlayClipAtPoint(explosion, transform.position);
 
 		if (lives > 0) {
 			SpawnPlayer ();

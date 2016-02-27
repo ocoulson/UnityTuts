@@ -5,8 +5,12 @@ public class Shredder : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D col)
 	{
-		if (col.gameObject.GetComponent<Projectile> ()|| col.gameObject.GetComponent<Asteroid>()) {
+		if (col.gameObject.GetComponent<Projectile> ()) {
 			Destroy (col.gameObject);
+		} else if (col.gameObject.GetComponent<Asteroid> ()) {
+			AsteroidSpawner.asteroidCount--;
+			Destroy(col.gameObject);
 		}
+
 	}
 }

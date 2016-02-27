@@ -12,7 +12,7 @@ public class AsteroidSpawner : MonoBehaviour {
 	private float maxX;
 	private float minX;
 
-	private static int asteroidCount = 0;
+	public static int asteroidCount = 0;
 	void OnDrawGizmos ()
 	{
 		Gizmos.DrawWireCube(transform.position, new Vector3(width, height));

@@ -255,6 +255,10 @@ MonoBehaviour:
   width: 13.48
   height: 2.78
   spawnDelayTime: 0.5
+  arrival:
+  - {fileID: 8300000, guid: 127048fde2719462b81298e26419fd3b, type: 3}
+  - {fileID: 8300000, guid: 1ea8c3a539b5541949ce7bd4565fb2ea, type: 3}
+  - {fileID: 8300000, guid: 0bf0973c02d8044fe9217ef8c8f32743, type: 3}
 --- !u!4 &228407884
 Transform:
   m_ObjectHideFlags: 0
@@ -1983,7 +1987,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 485049561}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e326d06b895c04b009acd21bf0078fb9, type: 3}
+  m_Script: {fileID: 11500000, guid: 231f715beaa234afaa02b4b80da347e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &485049564
@@ -4449,6 +4453,7 @@ GameObject:
   - 223: {fileID: 1523254212}
   - 114: {fileID: 1523254211}
   - 114: {fileID: 1523254210}
+  - 95: {fileID: 1523254214}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4532,6 +4537,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &1523254214
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1523254209}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 73300f5a728ad45169f574db7efff06a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1636875876
 GameObject:
   m_ObjectHideFlags: 0
@@ -4608,7 +4630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerShip: {fileID: 189592, guid: 2f7c2b508504b47babb1670dc3d0cf62, type: 2}
-  lives: 3
+  explosion: {fileID: 8300000, guid: 554fcfae6ed404ea2a75af54f736745d, type: 3}
 --- !u!4 &1642475275
 Transform:
   m_ObjectHideFlags: 0
