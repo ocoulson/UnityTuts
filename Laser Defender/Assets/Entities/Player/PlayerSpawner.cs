@@ -14,6 +14,7 @@ public class PlayerSpawner : MonoBehaviour {
 		Debug.Log("Player Spawned");
 		SpawnPlayer();
 		levelManager = FindObjectOfType<LevelManager>();
+		lives = 3;
 	
 	}
 

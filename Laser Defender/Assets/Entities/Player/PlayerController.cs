@@ -79,10 +79,15 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		if (Input.GetKeyUp (KeyCode.Space)) {
-			CancelInvoke();
+			CancelInvoke ();
 		}
 
-		healthbar.transform.localScale = new Vector3((playerHealth / initialHealth), transform.localScale.y, transform.localScale.z);
+		if (playerHealth >= 0) {
+			healthbar.transform.localScale = new Vector3 ((playerHealth / initialHealth), transform.localScale.y, transform.localScale.z);
+		} else {
+			healthbar.transform.localScale = new Vector3(0, transform.localScale.y, transform.localScale.z);
+		}
+
 
 	}
 
