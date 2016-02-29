@@ -18,7 +18,6 @@ public class LevelManager : MonoBehaviour {
 
 	}
 	public void LoadLevel(string name) {
-		Debug.Log("Level load requested for " + name);
 		SceneManager.LoadScene(name);
 	}
 
@@ -28,7 +27,6 @@ public class LevelManager : MonoBehaviour {
 	}
 
 	public void LoadNextLevel() {
-		Debug.Log("Load Next Level");
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 
