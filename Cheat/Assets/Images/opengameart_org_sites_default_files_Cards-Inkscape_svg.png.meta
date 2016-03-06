@@ -1,0 +1,2178 @@
+fileFormatVersion: 2
+guid: ab40aabdece654c819f5f7b24655599e
+timeCreated: 1457308229
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AceSpades
+    21300002: 2Spades
+    21300004: 3Spades
+    21300006: 4Spades
+    21300008: 5Spades
+    21300010: 6Spades
+    21300012: 7Spades
+    21300014: 8Spades
+    21300016: 9Spades
+    21300018: 10Spades
+    21300020: JackSpades
+    21300022: QueenSpades
+    21300024: KingSpades
+    21300026: AceClubs
+    21300028: 2Clubs
+    21300030: 3Clubs
+    21300032: 4Clubs
+    21300034: 5Clubs
+    21300036: 6Clubs
+    21300038: 7Clubs
+    21300040: 8Clubs
+    21300042: 9Clubs
+    21300044: 10Clubs
+    21300046: JackClubs
+    21300048: QueenClubs
+    21300050: KingClubs
+    21300052: AceHearts
+    21300054: 2Hearts
+    21300056: 3Hearts
+    21300058: 4Hearts
+    21300060: 5Hearts
+    21300062: 6Hearts
+    21300064: 7Hearts
+    21300066: 8Hearts
+    21300068: 9Hearts
+    21300070: 10Hearts
+    21300072: JackHearts
+    21300074: QueenHearts
+    21300076: KingHearts
+    21300078: AceDiamonds
+    21300080: 2Diamonds
+    21300082: 3Diamonds
+    21300084: 4Diamonds
+    21300086: 5Diamonds
+    21300088: 6Diamonds
+    21300090: 7Diamonds
+    21300092: 8Diamonds
+    21300094: 9Diamonds
+    21300096: 10Diamonds
+    21300098: JackDiamonds
+    21300100: QueenDiamonds
+    21300102: KingDiamonds
+    21300104: BlackJoker
+    21300106: RedJoker
+    21300108: Diamond Large
+    21300110: Club Large
+    21300112: Spade Large
+    21300114: Heart Large
+    21300116: opengameart_org_sites_default_files_Cards-Inkscape_svg_58
+    21300118: opengameart_org_sites_default_files_Cards-Inkscape_svg_59
+    21300120: opengameart_org_sites_default_files_Cards-Inkscape_svg_60
+    21300122: opengameart_org_sites_default_files_Cards-Inkscape_svg_61
+    21300124: opengameart_org_sites_default_files_Cards-Inkscape_svg_62
+    21300126: opengameart_org_sites_default_files_Cards-Inkscape_svg_63
+    21300128: opengameart_org_sites_default_files_Cards-Inkscape_svg_64
+    21300130: opengameart_org_sites_default_files_Cards-Inkscape_svg_65
+    21300132: opengameart_org_sites_default_files_Cards-Inkscape_svg_66
+    21300134: opengameart_org_sites_default_files_Cards-Inkscape_svg_67
+    21300136: opengameart_org_sites_default_files_Cards-Inkscape_svg_68
+    21300138: opengameart_org_sites_default_files_Cards-Inkscape_svg_69
+    21300140: opengameart_org_sites_default_files_Cards-Inkscape_svg_70
+    21300142: opengameart_org_sites_default_files_Cards-Inkscape_svg_71
+    21300144: opengameart_org_sites_default_files_Cards-Inkscape_svg_72
+    21300146: opengameart_org_sites_default_files_Cards-Inkscape_svg_73
+    21300148: opengameart_org_sites_default_files_Cards-Inkscape_svg_74
+    21300150: opengameart_org_sites_default_files_Cards-Inkscape_svg_75
+    21300152: opengameart_org_sites_default_files_Cards-Inkscape_svg_76
+    21300154: opengameart_org_sites_default_files_Cards-Inkscape_svg_77
+    21300156: opengameart_org_sites_default_files_Cards-Inkscape_svg_78
+    21300158: opengameart_org_sites_default_files_Cards-Inkscape_svg_79
+    21300160: opengameart_org_sites_default_files_Cards-Inkscape_svg_80
+    21300162: opengameart_org_sites_default_files_Cards-Inkscape_svg_81
+    21300164: opengameart_org_sites_default_files_Cards-Inkscape_svg_82
+    21300166: opengameart_org_sites_default_files_Cards-Inkscape_svg_83
+    21300168: opengameart_org_sites_default_files_Cards-Inkscape_svg_84
+    21300170: opengameart_org_sites_default_files_Cards-Inkscape_svg_85
+    21300172: opengameart_org_sites_default_files_Cards-Inkscape_svg_86
+    21300174: opengameart_org_sites_default_files_Cards-Inkscape_svg_87
+    21300176: opengameart_org_sites_default_files_Cards-Inkscape_svg_88
+    21300178: opengameart_org_sites_default_files_Cards-Inkscape_svg_89
+    21300180: opengameart_org_sites_default_files_Cards-Inkscape_svg_90
+    21300182: opengameart_org_sites_default_files_Cards-Inkscape_svg_91
+    21300184: opengameart_org_sites_default_files_Cards-Inkscape_svg_92
+    21300186: opengameart_org_sites_default_files_Cards-Inkscape_svg_93
+    21300188: opengameart_org_sites_default_files_Cards-Inkscape_svg_94
+    21300190: opengameart_org_sites_default_files_Cards-Inkscape_svg_95
+    21300192: opengameart_org_sites_default_files_Cards-Inkscape_svg_96
+    21300194: opengameart_org_sites_default_files_Cards-Inkscape_svg_97
+    21300196: opengameart_org_sites_default_files_Cards-Inkscape_svg_98
+    21300198: opengameart_org_sites_default_files_Cards-Inkscape_svg_99
+    21300200: opengameart_org_sites_default_files_Cards-Inkscape_svg_100
+    21300202: opengameart_org_sites_default_files_Cards-Inkscape_svg_101
+    21300204: opengameart_org_sites_default_files_Cards-Inkscape_svg_102
+    21300206: opengameart_org_sites_default_files_Cards-Inkscape_svg_103
+    21300208: opengameart_org_sites_default_files_Cards-Inkscape_svg_104
+    21300210: opengameart_org_sites_default_files_Cards-Inkscape_svg_105
+    21300212: opengameart_org_sites_default_files_Cards-Inkscape_svg_106
+    21300214: opengameart_org_sites_default_files_Cards-Inkscape_svg_107
+    21300216: opengameart_org_sites_default_files_Cards-Inkscape_svg_108
+    21300218: opengameart_org_sites_default_files_Cards-Inkscape_svg_109
+    21300220: opengameart_org_sites_default_files_Cards-Inkscape_svg_110
+    21300222: opengameart_org_sites_default_files_Cards-Inkscape_svg_111
+    21300224: opengameart_org_sites_default_files_Cards-Inkscape_svg_112
+    21300226: opengameart_org_sites_default_files_Cards-Inkscape_svg_113
+    21300228: opengameart_org_sites_default_files_Cards-Inkscape_svg_114
+    21300230: opengameart_org_sites_default_files_Cards-Inkscape_svg_115
+    21300232: opengameart_org_sites_default_files_Cards-Inkscape_svg_116
+    21300234: opengameart_org_sites_default_files_Cards-Inkscape_svg_117
+    21300236: opengameart_org_sites_default_files_Cards-Inkscape_svg_118
+    21300238: opengameart_org_sites_default_files_Cards-Inkscape_svg_119
+    21300240: opengameart_org_sites_default_files_Cards-Inkscape_svg_120
+    21300242: opengameart_org_sites_default_files_Cards-Inkscape_svg_121
+    21300244: opengameart_org_sites_default_files_Cards-Inkscape_svg_122
+    21300246: opengameart_org_sites_default_files_Cards-Inkscape_svg_123
+    21300248: opengameart_org_sites_default_files_Cards-Inkscape_svg_124
+    21300250: opengameart_org_sites_default_files_Cards-Inkscape_svg_125
+    21300252: opengameart_org_sites_default_files_Cards-Inkscape_svg_126
+    21300254: opengameart_org_sites_default_files_Cards-Inkscape_svg_127
+    21300256: opengameart_org_sites_default_files_Cards-Inkscape_svg_128
+    21300258: opengameart_org_sites_default_files_Cards-Inkscape_svg_129
+    21300260: opengameart_org_sites_default_files_Cards-Inkscape_svg_130
+    21300262: opengameart_org_sites_default_files_Cards-Inkscape_svg_131
+    21300264: opengameart_org_sites_default_files_Cards-Inkscape_svg_132
+    21300266: opengameart_org_sites_default_files_Cards-Inkscape_svg_133
+    21300268: opengameart_org_sites_default_files_Cards-Inkscape_svg_134
+    21300270: opengameart_org_sites_default_files_Cards-Inkscape_svg_135
+    21300272: opengameart_org_sites_default_files_Cards-Inkscape_svg_136
+    21300274: opengameart_org_sites_default_files_Cards-Inkscape_svg_137
+    21300276: opengameart_org_sites_default_files_Cards-Inkscape_svg_138
+    21300278: opengameart_org_sites_default_files_Cards-Inkscape_svg_139
+    21300280: opengameart_org_sites_default_files_Cards-Inkscape_svg_140
+    21300282: opengameart_org_sites_default_files_Cards-Inkscape_svg_141
+    21300284: opengameart_org_sites_default_files_Cards-Inkscape_svg_142
+    21300286: opengameart_org_sites_default_files_Cards-Inkscape_svg_143
+    21300288: opengameart_org_sites_default_files_Cards-Inkscape_svg_144
+    21300290: opengameart_org_sites_default_files_Cards-Inkscape_svg_145
+    21300292: opengameart_org_sites_default_files_Cards-Inkscape_svg_146
+    21300294: opengameart_org_sites_default_files_Cards-Inkscape_svg_147
+    21300296: opengameart_org_sites_default_files_Cards-Inkscape_svg_148
+    21300298: opengameart_org_sites_default_files_Cards-Inkscape_svg_149
+    21300300: opengameart_org_sites_default_files_Cards-Inkscape_svg_0
+    21300302: opengameart_org_sites_default_files_Cards-Inkscape_svg_1
+    21300304: opengameart_org_sites_default_files_Cards-Inkscape_svg_2
+    21300306: opengameart_org_sites_default_files_Cards-Inkscape_svg_3
+    21300308: opengameart_org_sites_default_files_Cards-Inkscape_svg_4
+    21300310: opengameart_org_sites_default_files_Cards-Inkscape_svg_5
+    21300312: opengameart_org_sites_default_files_Cards-Inkscape_svg_6
+    21300314: opengameart_org_sites_default_files_Cards-Inkscape_svg_7
+    21300316: opengameart_org_sites_default_files_Cards-Inkscape_svg_8
+    21300318: opengameart_org_sites_default_files_Cards-Inkscape_svg_9
+    21300320: opengameart_org_sites_default_files_Cards-Inkscape_svg_10
+    21300322: opengameart_org_sites_default_files_Cards-Inkscape_svg_11
+    21300324: opengameart_org_sites_default_files_Cards-Inkscape_svg_12
+    21300326: opengameart_org_sites_default_files_Cards-Inkscape_svg_13
+    21300328: opengameart_org_sites_default_files_Cards-Inkscape_svg_14
+    21300330: opengameart_org_sites_default_files_Cards-Inkscape_svg_15
+    21300332: opengameart_org_sites_default_files_Cards-Inkscape_svg_16
+    21300334: opengameart_org_sites_default_files_Cards-Inkscape_svg_17
+    21300336: opengameart_org_sites_default_files_Cards-Inkscape_svg_18
+    21300338: opengameart_org_sites_default_files_Cards-Inkscape_svg_19
+    21300340: opengameart_org_sites_default_files_Cards-Inkscape_svg_20
+    21300342: opengameart_org_sites_default_files_Cards-Inkscape_svg_21
+    21300344: opengameart_org_sites_default_files_Cards-Inkscape_svg_22
+    21300346: opengameart_org_sites_default_files_Cards-Inkscape_svg_23
+    21300348: opengameart_org_sites_default_files_Cards-Inkscape_svg_24
+    21300350: opengameart_org_sites_default_files_Cards-Inkscape_svg_25
+    21300352: opengameart_org_sites_default_files_Cards-Inkscape_svg_26
+    21300354: opengameart_org_sites_default_files_Cards-Inkscape_svg_27
+    21300356: opengameart_org_sites_default_files_Cards-Inkscape_svg_28
+    21300358: opengameart_org_sites_default_files_Cards-Inkscape_svg_29
+    21300360: opengameart_org_sites_default_files_Cards-Inkscape_svg_30
+    21300362: opengameart_org_sites_default_files_Cards-Inkscape_svg_31
+    21300364: opengameart_org_sites_default_files_Cards-Inkscape_svg_32
+    21300366: opengameart_org_sites_default_files_Cards-Inkscape_svg_33
+    21300368: opengameart_org_sites_default_files_Cards-Inkscape_svg_34
+    21300370: opengameart_org_sites_default_files_Cards-Inkscape_svg_35
+    21300372: opengameart_org_sites_default_files_Cards-Inkscape_svg_36
+    21300374: opengameart_org_sites_default_files_Cards-Inkscape_svg_37
+    21300376: opengameart_org_sites_default_files_Cards-Inkscape_svg_38
+    21300378: opengameart_org_sites_default_files_Cards-Inkscape_svg_39
+    21300380: opengameart_org_sites_default_files_Cards-Inkscape_svg_40
+    21300382: opengameart_org_sites_default_files_Cards-Inkscape_svg_41
+    21300384: opengameart_org_sites_default_files_Cards-Inkscape_svg_42
+    21300386: opengameart_org_sites_default_files_Cards-Inkscape_svg_43
+    21300388: opengameart_org_sites_default_files_Cards-Inkscape_svg_44
+    21300390: opengameart_org_sites_default_files_Cards-Inkscape_svg_45
+    21300392: opengameart_org_sites_default_files_Cards-Inkscape_svg_46
+    21300394: opengameart_org_sites_default_files_Cards-Inkscape_svg_47
+    21300396: opengameart_org_sites_default_files_Cards-Inkscape_svg_48
+    21300398: opengameart_org_sites_default_files_Cards-Inkscape_svg_49
+    21300400: opengameart_org_sites_default_files_Cards-Inkscape_svg_50
+    21300402: opengameart_org_sites_default_files_Cards-Inkscape_svg_51
+    21300404: opengameart_org_sites_default_files_Cards-Inkscape_svg_52
+    21300406: opengameart_org_sites_default_files_Cards-Inkscape_svg_53
+    21300408: opengameart_org_sites_default_files_Cards-Inkscape_svg_54
+    21300410: opengameart_org_sites_default_files_Cards-Inkscape_svg_55
+    21300412: opengameart_org_sites_default_files_Cards-Inkscape_svg_56
+    21300414: opengameart_org_sites_default_files_Cards-Inkscape_svg_57
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 962
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.82762, y: 70.679016}
+        - {x: -50.82762, y: -70.320984}
+        - {x: 52.17238, y: -70.320984}
+        - {x: 52.17238, y: 70.679016}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 963
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.774292, y: 70.6543}
+        - {x: -50.774292, y: -70.3457}
+        - {x: 52.225708, y: -70.3457}
+        - {x: 52.225708, y: 70.6543}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 963
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.720947, y: 70.6543}
+        - {x: -50.720947, y: -70.3457}
+        - {x: 52.279053, y: -70.3457}
+        - {x: 52.279053, y: 70.6543}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_3
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 962
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.167633, y: 70.679016}
+        - {x: -50.167633, y: -70.320984}
+        - {x: 51.832367, y: -70.320984}
+        - {x: 51.832367, y: 70.679016}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 962
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.58954, y: 70.679016}
+        - {x: -50.58954, y: -69.320984}
+        - {x: -49.58954, y: -70.320984}
+        - {x: 52.41046, y: -70.320984}
+        - {x: 52.41046, y: 70.679016}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 962
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.536194, y: 70.679016}
+        - {x: -50.536194, y: -69.320984}
+        - {x: -49.536194, y: -70.320984}
+        - {x: 52.463806, y: -70.320984}
+        - {x: 52.463806, y: 70.679016}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_6
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 962
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.00763, y: 70.679016}
+        - {x: -50.00763, y: -70.320984}
+        - {x: 51.99237, y: -70.320984}
+        - {x: 51.99237, y: 70.679016}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_7
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 962
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.929504, y: 70.679016}
+        - {x: -50.929504, y: -70.320984}
+        - {x: 51.070496, y: -70.320984}
+        - {x: 51.070496, y: 70.679016}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_8
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 962
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.87622, y: 70.679016}
+        - {x: -50.87622, y: -70.320984}
+        - {x: 51.12378, y: -70.320984}
+        - {x: 51.12378, y: 70.679016}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_9
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 963
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.822876, y: 70.6543}
+        - {x: -50.822876, y: -70.3457}
+        - {x: 51.177124, y: -70.3457}
+        - {x: 51.177124, y: 70.6543}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_10
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 963
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.76953, y: 70.6543}
+        - {x: -50.76953, y: -70.3457}
+        - {x: 51.23047, y: -70.3457}
+        - {x: 51.23047, y: 70.6543}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_11
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 962
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.716187, y: 70.679016}
+        - {x: -50.716187, y: -70.320984}
+        - {x: 51.283813, y: -70.320984}
+        - {x: 51.283813, y: 70.679016}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_12
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 963
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.66284, y: 70.6543}
+        - {x: -50.66284, y: -70.3457}
+        - {x: 51.33716, y: -70.3457}
+        - {x: 51.33716, y: 70.6543}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_13
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.82762, y: 70.69049}
+        - {x: -50.82762, y: -70.30951}
+        - {x: 52.17238, y: -70.30951}
+        - {x: 52.17238, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.774292, y: 70.69049}
+        - {x: -50.774292, y: -70.30951}
+        - {x: 52.225708, y: -70.30951}
+        - {x: 52.225708, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_15
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.720947, y: 70.69049}
+        - {x: -50.720947, y: -70.30951}
+        - {x: 52.279053, y: -70.30951}
+        - {x: 52.279053, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_16
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 800
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.167633, y: 70.69049}
+        - {x: -50.167633, y: -70.30951}
+        - {x: 51.832367, y: -70.30951}
+        - {x: 51.832367, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_17
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.58954, y: 70.69049}
+        - {x: -50.58954, y: -69.30951}
+        - {x: -49.58954, y: -70.30951}
+        - {x: 52.41046, y: -70.30951}
+        - {x: 52.41046, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_18
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.536194, y: 70.69049}
+        - {x: -50.536194, y: -69.30951}
+        - {x: -49.536194, y: -70.30951}
+        - {x: 52.463806, y: -70.30951}
+        - {x: 52.463806, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_19
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 800
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.00763, y: 70.69049}
+        - {x: -50.00763, y: -70.30951}
+        - {x: 51.99237, y: -70.30951}
+        - {x: 51.99237, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_20
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.929504, y: 70.69049}
+        - {x: -50.929504, y: -70.30951}
+        - {x: 51.070496, y: -70.30951}
+        - {x: 51.070496, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_21
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.87622, y: 70.69049}
+        - {x: -50.87622, y: -70.30951}
+        - {x: 51.12378, y: -70.30951}
+        - {x: 51.12378, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_22
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.822876, y: 70.69049}
+        - {x: -50.822876, y: -70.30951}
+        - {x: 51.177124, y: -70.30951}
+        - {x: 51.177124, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_23
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.76953, y: 70.69049}
+        - {x: -50.76953, y: -70.30951}
+        - {x: 51.23047, y: -70.30951}
+        - {x: 51.23047, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_24
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.716187, y: 70.69049}
+        - {x: -50.716187, y: -70.30951}
+        - {x: 51.283813, y: -70.30951}
+        - {x: 51.283813, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_25
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 800
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.66284, y: 70.69049}
+        - {x: -50.66284, y: -70.30951}
+        - {x: 51.33716, y: -70.30951}
+        - {x: 51.33716, y: 70.69049}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_26
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.82762, y: 70.701904}
+        - {x: -50.82762, y: -70.298096}
+        - {x: 52.17238, y: -70.298096}
+        - {x: 52.17238, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_27
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.774292, y: 70.701904}
+        - {x: -50.774292, y: -70.298096}
+        - {x: 52.225708, y: -70.298096}
+        - {x: 52.225708, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_28
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.720947, y: 70.701904}
+        - {x: -50.720947, y: -70.298096}
+        - {x: 52.279053, y: -70.298096}
+        - {x: 52.279053, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_29
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 638
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.167633, y: 70.701904}
+        - {x: -50.167633, y: -70.298096}
+        - {x: 51.832367, y: -70.298096}
+        - {x: 51.832367, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_30
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.58954, y: 70.701904}
+        - {x: -50.58954, y: -70.298096}
+        - {x: 52.41046, y: -70.298096}
+        - {x: 52.41046, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_31
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.536194, y: 70.701904}
+        - {x: -50.536194, y: -69.298096}
+        - {x: -49.536194, y: -70.298096}
+        - {x: 52.463806, y: -70.298096}
+        - {x: 52.463806, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_32
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 638
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.00763, y: 70.701904}
+        - {x: -50.00763, y: -70.298096}
+        - {x: 51.99237, y: -70.298096}
+        - {x: 51.99237, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_33
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.929504, y: 70.701904}
+        - {x: -50.929504, y: -70.298096}
+        - {x: 51.070496, y: -70.298096}
+        - {x: 51.070496, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_34
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.87622, y: 70.701904}
+        - {x: -50.87622, y: -70.298096}
+        - {x: 51.12378, y: -70.298096}
+        - {x: 51.12378, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_35
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.822876, y: 70.701904}
+        - {x: -50.822876, y: -70.298096}
+        - {x: 51.177124, y: -70.298096}
+        - {x: 51.177124, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_36
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.76953, y: 70.701904}
+        - {x: -50.76953, y: -70.298096}
+        - {x: 51.23047, y: -70.298096}
+        - {x: 51.23047, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_37
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.716187, y: 70.701904}
+        - {x: -50.716187, y: -70.298096}
+        - {x: 51.283813, y: -70.298096}
+        - {x: 51.283813, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_38
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 638
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.66284, y: 70.701904}
+        - {x: -50.66284, y: -70.298096}
+        - {x: 51.33716, y: -70.298096}
+        - {x: 51.33716, y: 70.701904}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_39
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.82762, y: 70.7381}
+        - {x: -50.82762, y: -70.2619}
+        - {x: 52.17238, y: -70.2619}
+        - {x: 52.17238, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_40
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.774292, y: 70.7381}
+        - {x: -50.774292, y: -70.2619}
+        - {x: 52.225708, y: -70.2619}
+        - {x: 52.225708, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.720947, y: 70.7381}
+        - {x: -50.720947, y: -70.2619}
+        - {x: 52.279053, y: -70.2619}
+        - {x: 52.279053, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_42
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 475
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.167633, y: 70.7381}
+        - {x: -50.167633, y: -70.2619}
+        - {x: 51.832367, y: -70.2619}
+        - {x: 51.832367, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_43
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.58954, y: 70.7381}
+        - {x: -50.58954, y: -69.2619}
+        - {x: -49.58954, y: -70.2619}
+        - {x: 52.41046, y: -70.2619}
+        - {x: 52.41046, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_44
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.536194, y: 70.7381}
+        - {x: -50.536194, y: -69.2619}
+        - {x: -49.536194, y: -70.2619}
+        - {x: 52.463806, y: -70.2619}
+        - {x: 52.463806, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_45
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 475
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.00763, y: 70.7381}
+        - {x: -50.00763, y: -70.2619}
+        - {x: 51.99237, y: -70.2619}
+        - {x: 51.99237, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_46
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.929504, y: 70.7381}
+        - {x: -50.929504, y: -70.2619}
+        - {x: 51.070496, y: -70.2619}
+        - {x: 51.070496, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_47
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.87622, y: 70.7381}
+        - {x: -50.87622, y: -70.2619}
+        - {x: 51.12378, y: -70.2619}
+        - {x: 51.12378, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_48
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.822876, y: 70.7381}
+        - {x: -50.822876, y: -70.2619}
+        - {x: 51.177124, y: -70.2619}
+        - {x: 51.177124, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_49
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.76953, y: 70.7381}
+        - {x: -50.76953, y: -70.2619}
+        - {x: 51.23047, y: -70.2619}
+        - {x: 51.23047, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_50
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.716187, y: 70.7381}
+        - {x: -50.716187, y: -70.2619}
+        - {x: 51.283813, y: -70.2619}
+        - {x: 51.283813, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_51
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 475
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.66284, y: 70.7381}
+        - {x: -50.66284, y: -70.2619}
+        - {x: 51.33716, y: -70.2619}
+        - {x: 51.33716, y: 70.7381}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_52
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 315
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.82762, y: 70.69998}
+        - {x: -50.82762, y: -70.30002}
+        - {x: 52.17238, y: -70.30002}
+        - {x: 52.17238, y: 70.69998}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_53
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 159
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.82762, y: 70.56285}
+        - {x: -50.82762, y: -70.43715}
+        - {x: 52.17238, y: -70.43715}
+        - {x: 52.17238, y: 70.56285}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_54
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 170
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.2285767, y: 41.29048}
+        - {x: -7.7714233, y: 41.29048}
+        - {x: -29.771423, y: 9.290482}
+        - {x: -29.771423, y: -5.7095184}
+        - {x: -4.7714233, y: -39.70952}
+        - {x: 3.2285767, y: -39.70952}
+        - {x: 30.228577, y: -5.7095184}
+        - {x: 30.228577, y: 11.290482}
+        - {x: 21.228577, y: 28.290482}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_55
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 166
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.72284, y: 39.889526}
+        - {x: -17.27716, y: 39.889526}
+        - {x: -26.27716, y: 37.889526}
+        - {x: -31.27716, y: 13.889526}
+        - {x: -31.27716, y: -23.110474}
+        - {x: -16.27716, y: -38.110474}
+        - {x: 20.72284, y: -38.110474}
+        - {x: 31.72284, y: -29.110474}
+        - {x: 31.72284, y: 10.889526}
+        - {x: 25.72284, y: 29.889526}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_56
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 170
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.782837, y: 40.79048}
+        - {x: -35.782837, y: 4.7904816}
+        - {x: -35.782837, y: -31.209518}
+        - {x: -30.782837, y: -38.20952}
+        - {x: -25.782837, y: -39.20952}
+        - {x: 32.217163, y: -39.20952}
+        - {x: 36.217163, y: -34.20952}
+        - {x: 36.217163, y: 10.790482}
+        - {x: 16.217163, y: 40.79048}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_57
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 170
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.862854, y: 36.79048}
+        - {x: -35.862854, y: 35.79048}
+        - {x: -35.862854, y: -0.20951843}
+        - {x: -17.862854, y: -35.20952}
+        - {x: 5.137146, y: -35.20952}
+        - {x: 36.137146, y: -2.2095184}
+        - {x: 36.137146, y: 28.790482}
+        - {x: 28.137146, y: 36.79048}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_58
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 195
+        width: 85
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_59
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 189
+        width: 85
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_60
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 209
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_61
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 209
+        width: 8
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_62
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 189
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_63
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 195
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_64
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 195
+        width: 17
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_65
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 195
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_66
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 189
+        width: 75
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_67
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 164
+        width: 101
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_68
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 164
+        width: 73
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_69
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 164
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_70
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 164
+        width: 107
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_71
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 164
+        width: 121
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_72
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 164
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_73
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 164
+        width: 10
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_74
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 164
+        width: 104
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_75
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 164
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_76
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 164
+        width: 68
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_77
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 164
+        width: 68
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_78
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 164
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_79
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 164
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_80
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 29
+        width: 263
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128.46765, y: 70.781906}
+        - {x: -128.46765, y: -70.218094}
+        - {x: 128.53235, y: -70.218094}
+        - {x: 128.53235, y: 70.781906}
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_81
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 133
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_82
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 133
+        width: 17
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_83
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 133
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_84
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 133
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_85
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 133
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_86
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 127
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_87
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 133
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_88
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 133
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_89
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 130
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_90
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 130
+        width: 6
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_91
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 133
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_92
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 133
+        width: 116
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_93
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 131
+        width: 13
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_94
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 133
+        width: 116
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_95
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 127
+        width: 167
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_96
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 131
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_97
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 131
+        width: 13
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_98
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 131
+        width: 46
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_99
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 133
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_100
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 97
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_101
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 97
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_102
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 97
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_103
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 97
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_104
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 97
+        width: 108
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_105
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 97
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_106
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 92
+        width: 97
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_107
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 92
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_108
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 95
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_109
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 97
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_110
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 97
+        width: 101
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_111
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 92
+        width: 214
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_112
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 72
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_113
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 72
+        width: 94
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_114
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 72
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_115
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 72
+        width: 34
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_116
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 72
+        width: 58
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_117
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 83
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_118
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 83
+        width: 7
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_119
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 72
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_120
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 72
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_121
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 72
+        width: 81
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_122
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 72
+        width: 59
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_123
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 72
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_124
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 72
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_125
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 67
+        width: 55
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_126
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 72
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_127
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 72
+        width: 33
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_128
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 70
+        width: 80
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_129
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 72
+        width: 63
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_130
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 72
+        width: 63
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_131
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 72
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_132
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 72
+        width: 10
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_133
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 72
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_134
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 25
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_135
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 24
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_136
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 31
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_137
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 28
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_138
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 47
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_139
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 47
+        width: 69
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_140
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_141
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 47
+        width: 90
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_142
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 47
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_143
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 47
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_144
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 47
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_145
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_146
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 47
+        width: 32
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_147
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 47
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_148
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 17
+        width: 54
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: opengameart_org_sites_default_files_Cards-Inkscape_svg_149
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 17
+        width: 189
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

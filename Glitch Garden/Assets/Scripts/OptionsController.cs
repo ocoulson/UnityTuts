@@ -6,7 +6,7 @@ public class OptionsController : MonoBehaviour {
 	public Slider volumeSlider, difficultySlider;
 
 	public LevelManager levelManager;
-
+	 
 	private MusicManager musicManager; 
 	// Use this for initialization
 	void Start () {
